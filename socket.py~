@@ -23,10 +23,13 @@ def inet_pton(family, address) -> bytes:
 
 class socket:
     ''
+    def __init__(self, *args):
+        pass
+
     def accept():
         pass
 
-    def bind():
+    def bind(address: ()) -> (object, bytes):
         pass
 
     def close():
